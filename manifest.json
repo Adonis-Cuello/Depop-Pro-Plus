@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Depop Plus Pro",
+    "version": "1.0.0",
+    "description": " A simple extension that makes looking for and posting items on Depop easier.",
+    "action": {
+        "default_popup": "popup/popup.html"
+    },
+    "icons": {
+        "16": "images/icons8-clothes-24.png",
+        "32": "images/icons8-clothes-50.png",
+        "48": "images/icons8-clothes-30.png"
+    },
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "permissions": [
+        "storage"
+    ]
+}
